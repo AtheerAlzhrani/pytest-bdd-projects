@@ -13,25 +13,14 @@ This project uses **pytest-bdd** to test the [DuckDuckGo Instant Answer API](htt
 
 Two scenario outlines verify that the API returns valid results for:
 
-- 🐼 Animals: `panda`, `python`, `platypus`  
-- 🍍 Fruits: `peach`, `pineapple`, `papaya`
+-  `panda`, `python`, `platypus`  
+-  `peach`, `pineapple`, `papaya`
 
 Each test checks:
 - HTTP status code is `200` (or `202` if acceptable)
 - Response contains the search phrase in the heading
 
-## 🚀 How to Run
 
-```bash
-pip install pytest pytest-bdd requests
-pytest
-```
 
-## 🛠️ Tech Stack
-
-- Python 3  
-- pytest  
-- pytest-bdd  
-- requests
 
 
